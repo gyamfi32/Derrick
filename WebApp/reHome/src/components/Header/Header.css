@@ -1,0 +1,57 @@
+
+header {
+    width: 100vw;
+    height: 100vh;
+   background-image: url('../../assets/images/pexels-heyho-7511693.jpg');
+   /* background-image: url('./images/pexels-heyho-7511693.jpg'); */
+   background-position: bottom;
+   background-size: cover;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+}
+
+.header-content {
+    margin-bottom: 150px;
+    text-align: center;
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1{
+    font-size: 6vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.header-content h2{
+    font-size: 4vmin;
+}
+
+.header-content a{
+    text-decoration: none;
+}
+
+
+.card img.resized-img {
+  height: 250px;
+  width: 100%;
+}
