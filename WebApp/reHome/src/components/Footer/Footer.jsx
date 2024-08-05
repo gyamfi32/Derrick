@@ -2,7 +2,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <>
-      <footer className="footer bg-dark py-4">
+      <footer className="footer sticky-bottom bg-dark py-4">
         <div className="footerContainer bg-dark py-4">
           <div className="socialIcons">
             <a href="">
