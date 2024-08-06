@@ -6,7 +6,7 @@ const ProductHeader = () => {
       <header>
         <div className="hero">
           <div className="container text-center text-white">
-            <h1 className="display-4">Welcome to ReHome</h1>
+            <h1 className="display-4">Welcome to <span className="grey-qo-regularh">Re </span><span style={{color: '#fc036b'}}>Home</span></h1>
             <p className="hero-subtitle">
               We are a company that provides you with the best home appliances
             </p>
@@ -17,7 +17,7 @@ const ProductHeader = () => {
               helping you save money and reduce waste. Join us in our mission to
               create a more sustainable future, one appliance at a time.
             </p>
-            <button className="btn btn-primary">Shop Now</button>
+            <a href="/products" className="btn btn-primary">Shop Now</a>
           </div>
         </div>
       </header>

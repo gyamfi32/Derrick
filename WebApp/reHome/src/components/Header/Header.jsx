@@ -3,14 +3,13 @@ const Header = () => {
   return (
     <>
       <header className="header">
-        <div className="header-content">
-          <h2>
+        <div className="container header-content">
+        <h1 className="h1">WORLD OF PRICELESS HOME APPLIANCES</h1>
+          <h2 className="h2">
             Breathe New Life into Your Home with Quality, Affordable Second-Hand
             Appliances
-          </h2>
-          <div className="line"></div>
-          <h1>WORLD OF PRICELESS HOME APPLIANCES</h1>
-          <a className="ctn" href="Products/product.html">
+          </h2>          
+          <a className="ctn" href="/products">
             Learn More
           </a>
         </div>

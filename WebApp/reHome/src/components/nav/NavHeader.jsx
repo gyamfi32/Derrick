@@ -4,8 +4,8 @@ const NavHeader = () => {
   return (
     <>   
     <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-      <div className="container-fluid">
-        <h1 className=" navbar-brand">ReHome</h1>
+      <div className="container">
+        <h1 className=" navbar-brand"><span className="grey-qo-regular">Re&nbsp;</span><span style={{color:'#fc036b'}}>Home</span></h1>
         <button
           className="navbar-toggler"
           type="button"

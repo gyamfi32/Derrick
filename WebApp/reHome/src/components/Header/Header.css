@@ -1,9 +1,9 @@
-
 .header {
-    width: 100vw;
+    margin: 0.5rem;
+    width: 100%;
+    margin-inline: auto;
     height: 100vh;
    background-image: url('../../assets/images/pexels-heyho-7511693.jpg');
-   /* background-image: url('./images/pexels-heyho-7511693.jpg'); */
    background-position: bottom;
    background-size: cover;
    display: flex;
@@ -12,38 +12,43 @@
 }
 
 .header-content {
-    margin-bottom: 150px;
+    margin-bottom: 22rem;
     text-align: center;
     color: whitesmoke;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    background: #00000080;
+    padding:50px;
     border-radius: 10px;
 }
-
-.line {
-    width: 150px;
-    height: 4px;
-    background: #fc036b;
-    margin: 10px auto;
-    border-radius: 5px;
+.h1 {
+    padding-top: 20px 0px;
+}
+.h1::after{
+    content: "";
+    display: block;
+    max-width: 20%;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 4px; 
+    background: #fc036b;    
+    box-sizing: border-box;
 }
 
 .header-content h1{
     font-size: 6vmin;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin: 40px 0px;
 }
 
 .ctn {
-    padding: 8px 15px;
+    padding: 8px 25px;
     background: #fc036b;
     border-radius: 30px;
     color: whitesmoke;
     text-decoration: none;
 }
 
-.header-content h2{
-    font-size: 4vmin;
+.header-content .h2{
+    font-size: 1.5rem;
+    margin-bottom: 1.3rem;
 }
 
 .header-content a{
@@ -54,4 +59,5 @@
 .card img.resized-img {
   height: 250px;
   width: 100%;
+  margin-inline: auto;
 }
