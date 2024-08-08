@@ -5,7 +5,11 @@ const NavHeader = () => {
     <>   
     <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
       <div className="container">
-        <h1 className=" navbar-brand"><span className="grey-qo-regular">Re&nbsp;</span><span style={{color:'#fc036b'}}>Home</span></h1>
+      <h1 className=" navbar-brand">
+        <a href="/" className="navbar-image">
+        <span className="grey-qo-regular" style={{color: "#353434"}}>Re&nbsp;</span><span style={{color:'#fc036b'}}>Home</span>
+        </a></h1>
+        
         <button
           className="navbar-toggler"
           type="button"

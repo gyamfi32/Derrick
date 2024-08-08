@@ -1,5 +1,5 @@
 .header {
-    margin: 0.5rem;
+    margin: 0.2rem;
     width: 100%;
     margin-inline: auto;
     height: 100vh;
@@ -12,7 +12,7 @@
 }
 
 .header-content {
-    margin-bottom: 22rem;
+    margin-bottom: 10rem;
     text-align: center;
     color: whitesmoke;
     background: #00000080;
